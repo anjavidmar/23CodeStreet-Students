@@ -1,0 +1,96 @@
+* {
+ box-sizing: border-box;
+ -webkit-box-sizing: border-box;
+ -moz-box-sizing: border-box;
+}
+
+/*  General Text Styling  */
+
+body {
+  font-family: Helvetica, sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+h1 {
+  font-size: 2em;
+  padding: 0.6rem;
+}
+h2 {
+  font-size: 1.7em;
+  padding: 0.6rem;
+}
+h3 {
+  font-size: 1.4em;
+  padding: 0.6rem;
+}
+h4 {
+  font-size: 1.2em;
+  padding: 0.6rem;
+}
+h5 {
+  font-size: 1em;
+  padding: 0.6rem;
+}
+h6 {
+  font-size: 0.8em;
+  padding: 0.6rem;
+}
+p {
+  padding: 0.6rem;
+}
+
+/*  General page styling  */
+
+.main-header {
+  background-color: gray;
+  text-align: center;
+  padding: 1.5em;
+}
+main {
+  width: 75%;
+  margin: 0 auto;
+}
+.logo {
+  position: fixed;
+  right: 1em;
+  bottom: 3em;
+  width: 300px;
+}
+footer {
+  text-align: center;
+  background-color: gray;
+}
+
+/*  General section styling  */
+
+section {
+  /*padding: 5px;*/
+  /*border: 3px solid black;*/
+  margin: 10px;
+}
+.section-header {
+  overflow: auto;
+}
+.bullet-point {
+  width: 46px;
+  padding: 3px;
+  float: left;
+}
+.section-header h2 {
+  float: left;
+}
+.visible, .invisible {
+  margin-left: 46px;
+}
+.invisible {
+  opacity: 0;
+  transition: 2s;
+}
+.invisible:hover {
+  opacity: 1;
+}
+
+/*  Personal section styling  */
+
+/* add styling to your own sections by using your name as the section class to target just your section and not affect the styling of the rest of the page */
