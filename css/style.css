@@ -174,3 +174,60 @@ font-family: 'Oswald', sans-serif;*/
 }*/
 
 /* add styling to your own sections by using your name as the section class to target just your section and not affect the styling of the rest of the page */
+
+/*Shaheen's styling section*/
+
+/*text-styling section*/
+
+.shaheen h2 {
+  font-family:'Bungee Shade', cursive;
+  font-size: 2.5em;
+  color: #F7F131;
+  overflow: hidden;
+}
+
+.visible {
+  font-family: 'Arvo', serif;
+}
+
+.shaheen h3 {
+  font-family: 'Bungee Shade', cursive;
+  font-size: 2em;
+  color: #00DDFF;
+}
+
+.invisible h4 {
+    font-family:'Bungee Shade', cursive;
+    font-size: 2.5em;
+    color: #FF69B4;
+}
+
+.invisible p {
+  font-family: 'Arvo', serif;
+  font-style: italic;
+  color: gray;
+}
+
+/*img + button styling*/
+
+.visible img {
+  width: 20em;
+  height: 12em;
+  float: right;
+  padding: 0px 20px 20px 0;
+}
+
+.shaheen .visible {
+  float: left;
+}
+
+.shaheen .invisible {
+  clear: both;
+}
+
+div button {
+  font-family: 'Arvo', serif;
+  background-color: #00FF04;
+  font-weight: bold;
+  margin: 10px 0px 0px 0px;
+}
