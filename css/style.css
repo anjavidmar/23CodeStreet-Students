@@ -173,4 +173,70 @@ font-family: 'Oswald', sans-serif;*/
   font-family: 20px;
 }*/
 
+/* Jenny's section styling */
+
+/* font-family: 'Rozha One', serif;
+font-family: 'Lato', sans-serif; */
+
+.Jenny  {
+  background-color: white;
+}
+
+.Jenny-header {
+padding: 1em;
+}
+
+.Jenny h2 {
+  font-size: 2.2em;
+  color: #FB5012;
+  font-family: 'Rozha One', serif;
+}
+
+.Jenny h3 {
+  font-family: 'lato';
+  font-size: 1.2em;
+  color: #FB5012;
+}
+
+.Jenny p {
+  color: grey;
+  font-family: 'Lato', sans-serif;
+}
+
+.Jenny a{
+  text-decoration: none;
+  color: #E9DF00;
+}
+
+.Jenny a:hover{
+  font-size: 1em;
+  font-weight: 600;
+}
+
+.Jennyimg{
+  height: 200px;
+  width: auto;
+}
+
+.Jennyimg:hover{
+  opacity: 0.5;
+  transition: .5s ease;
+}
+
+.Jenny button {
+  background-color: #FB5012;
+  color: white;
+  font-family: inherit;
+  padding: 1em 1.2em;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.visible {
+  margin-bottom: 2em;
+}
+
 /* add styling to your own sections by using your name as the section class to target just your section and not affect the styling of the rest of the page */
