@@ -298,6 +298,8 @@ div button {
   margin: 10px 0px 0px 0px;
 }
 
+
+/*Marianne's section start*/
 section.marianne {
   width: 100%;
   height: auto;
@@ -305,9 +307,6 @@ section.marianne {
   background-repeat: no-repeat;
   /*background-position: right top;*/
   background-size: cover;
-}
-.marianne img {
-  margin-top: 10px;
 }
 
 .marianne header {
@@ -317,27 +316,19 @@ section.marianne {
   background-color: #f2e6ff;
 }
 
+.marianne img {
+  margin-top: 10px;
+}
+
 .marianne h2 {
   font-family: 'Fascinate', cursive;
   font-size: 3em;
-
-}
-
-.marianne h3 {
-  font-family: 'Kumar One Outline', cursive;
-  font-size: 3em;
-}
-
-.marianne p {
-  font-family: 'Permanent Marker', cursive;
-  color: blueviolet;
-  font-size: 1.5em;
-  display: inline-block;
 }
 
 .marianne div.visible {
   margin-top: 25px;
   margin-left: 25px;
+  margin-bottom: 25px;
   border-left-style: dotted;
   border-color: gray;
   border-width: 10px;
@@ -345,22 +336,126 @@ section.marianne {
   display: inline-block;
   background-color: rgba(255, 255, 255, 0.5);}
 
-
-.marianne div.invisible {
-    border-style: solid;
-    border-color: #806600;
-    border-width: 2px;
+  p.default {
+    font-family: 'Permanent Marker', cursive;
+    color: blueviolet;
+    font-size: 1.5em;
     display: inline-block;
-    background-color: yellow;
-    text-align: center;
-  display: inline-block;}
-
-  div.name {
-    margin-left: 60px;
-    margin-bottom: 40px;
   }
 
-  div.superpower {
-    margin-left: 75px;
-    margin-bottom: 100px;
+  p.smaller {
+    font-family: 'Permanent Marker', cursive;
+    color: blueviolet;
+    font-size: 1em;
+    display: inline-block;
   }
+
+  .marianne div.invisible {
+      border-style: solid;
+      border-color: #806600;
+      border-width: 2px;
+
+      text-align: center;
+      display: inline-block;
+      max-width: 50%;}
+
+    div.name {
+      margin-right: 50px;
+      margin-bottom: 40px;
+      background-color: yellow;
+    }
+
+  .marianne h3 {
+  font-family: 'Kumar One Outline', cursive;
+  font-size: 3em;
+}
+
+div.superpower {
+  margin-left: 90px;
+  margin-bottom: 20px;
+  background-color: yellow;
+}
+
+#mariannes {
+  display: none;
+  width: 100%;
+  overflow: auto;
+  background-color: orange;
+}
+
+.marianne h4 {
+font-family: 'Faster One', cursive;
+font-size: 2em;
+background-color: orange;
+display: inline-block;
+width: 100%;
+border-bottom-style: double;
+border-bottom-color: red;
+border-bottom-width: 2px;
+}
+
+div.superherotext {
+  width: 50%;
+  float: left;
+  background-color: white;
+}
+
+.superherotext p {
+  font-family: 'Sirin Stencil', cursive;
+}
+
+p.time {
+  background-color: #b37700;
+  color: white;
+}
+
+p.and {
+  background-color: #800040;
+  color: white;
+  width: 100%;
+  border-top-style: ridge;
+  border-top-color: black;
+  border-top-width: 2px;
+  border-bottom-style: ridge;
+  border-bottom-color: black;
+  border-bottom-width: 2px;
+}
+
+.marianne h5 {
+font-family: 'Bungee Shade', cursive;
+font-size: 1.5em;
+background-color: orange;
+display: inline-block;
+width: 100%;
+border-bottom-style: double;
+border-bottom-color: red;
+border-bottom-width: 2px;
+}
+
+p.shadow {
+  background-color: #b37700;
+  color: white;
+}
+
+div.picture {
+  border: groove, black, 3px;
+}
+
+img.superhero {
+  max-width: 100%;
+  max-height: 100%;
+  }
+
+p.barcelona {
+    clear: left;
+    font-family: 'Sirin Stencil', cursive;
+    background-color: #800040;
+    color: white;
+    width: 100%;
+    border-top-style: ridge;
+    border-top-color: black;
+    border-top-width: 2px;
+    border-bottom-style: ridge;
+    border-bottom-color: black;
+    border-bottom-width: 2px;
+    }

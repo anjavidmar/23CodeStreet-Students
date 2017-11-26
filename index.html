@@ -10,6 +10,12 @@
   <link href="https://fonts.googleapis.com/css?family=Arvo|Bungee+Shade" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,900|Rozha+One" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Kumar+One+Outline|Permanent+Marker" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Faster+One|Sirin+Stencil" rel="stylesheet">
+  <script
+			  src="http://code.jquery.com/jquery-3.2.1.min.js"
+			  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+			  crossorigin="anonymous">
+  </script>
 </head>
 
 <body>
@@ -149,38 +155,64 @@
           <h2>Marianne</h2>
         </header>
         <div class="visible">
-          <p>
-            Hello, I currently live in a vicarage, lived in Barbados for a couple of years as a child - where I had five pet tortoises like these ones - and I once stroked a bald cat (in Russia).
-            It felt a little bit fuzzy so I did wonder if it might have been shaved. That's three [fun] facts for the price of one!
+          <p class="default">
+            Hello, I currently live in a vicarage, lived in Barbados for a couple of years as a child - where I had five pet tortoises like these ones* - and I once stroked a bald cat (in Russia).
+            It felt a little bit fuzzy so I did wonder if it might have been shaved. That's three [fun?] facts for the price of one!
           </p>
-          <p>
+          <p class="default">
             My Twitter's <a href="https://twitter.com/shotpurple">here</a> and GitHub's <a href="https://github.com/ShotPurple">there</a>.
+          </p>
+
+          <p class="smaller">
+            * I also feel that they are a good represenation of me on this course
           </p>
         </div>
 
         <div class="invisible name">
-          <p>
+          <p class="default">
             my secret superhero / ninja assassin name is:
           </p>
           <h3>The Ticking Shadow</h3>
         </div>
+
         <div class="invisible superpower">
-          <p>
-            what to know my super power?
-            <!--  Time Manipulation - Your powers give you the ability to control the flow of time - speed it up, slow it down, or even (for a short time) put it into reverse.
-            and...  Shadow Control - You can manipulate and control shadows, using them to hide yourself or even as a mode of transportation (travelling from one shadow to another)!
-            Now, you protect Barcelona from corrupt government officials, while also battling the evil plans of Domino Bones!
-            -->
+          <p class="default">
+            want to know my super power?
           </p>
 
-          <p onclick="reveal">
-            [click here] <!-- this doesn't work ... yet -->
+          <p class="default" onclick="reveal()">
+            [click here]
           </p>
-          <p id="mariannes">
-            <!-- this should be left empty, can you figure out what to do? HINT: "onclick" text should appear here -->
 
-          </p>
+          <div id="mariannes">
+           <h4>Time Manipulation</h4>
+             <div class="superherotext">
+
+              <p class="time">
+                Your powers give you the ability to control the flow of time - speed it up, slow it down, or even (for a short time) put it into reverse.
+
+              </p>
+              <p class="and">
+                and...
+              </p>
+               <h5>Shadow Control</h5>
+               <p class="shadow">
+                 You can manipulate and control shadows, using them to hide yourself or even as a mode of transportation (travelling from one shadow to another)!
+               </p>
+
+            </div>
+
+            <div class="superherotext">
+              <img class="superhero" src="img/superhero.jpg" alt="shadow superhero with Barcelona FC clock" />
+            </div>
+            <p class="barcelona">
+              Now, you protect Barcelona from corrupt government officials, while also battling the evil plans of Domino Bones!
+            </p>
+          </div>
+
         </div>
+
+
       </section>
 
     <section class="your-name-goes-here">
