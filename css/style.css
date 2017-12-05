@@ -1,7 +1,7 @@
 * {
- box-sizing: border-box;
- -webkit-box-sizing: border-box;
- -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
 }
 
 /*  General Text Styling  */
@@ -11,30 +11,25 @@ body {
 }
 h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
+  padding: 0.6rem;
 }
 h1 {
   font-size: 2em;
-  padding: 0.6rem;
 }
 h2 {
   font-size: 1.7em;
-  padding: 0.6rem;
 }
 h3 {
   font-size: 1.4em;
-  padding: 0.6rem;
 }
 h4 {
   font-size: 1.2em;
-  padding: 0.6rem;
 }
 h5 {
   font-size: 1em;
-  padding: 0.6rem;
 }
 h6 {
   font-size: 0.8em;
-  padding: 0.6rem;
 }
 p {
   padding: 0.6rem;
@@ -92,16 +87,7 @@ section {
   opacity: 1;
 }
 
-/*  Personal section styling  */
-
-
 /* Hannah's section styling */
-
-
-/*font-family: 'Contrail One', cursive;
-font-family: 'Roboto Condensed', sans-serif;
-font-family: 'Oswald', sans-serif;*/
-
 
 /* Text styling */
 
@@ -119,7 +105,12 @@ font-family: 'Oswald', sans-serif;*/
 
 .hannah p {
   font-family: 'Roboto Condensed', sans-serif;
+  /*
+  if you want the font to the lighter version it's not
   font-weight: lighter;
+  it's
+  font-weight: 300;
+  */
 }
 
 .hannah .funfact {
@@ -164,6 +155,11 @@ font-family: 'Oswald', sans-serif;*/
   /*margin: 0 10px;*/
 }
 
+.hannah .campervan img {
+  vertical-align: top;
+}
+
+
 .hannah .invisible {
   clear: both;
 }
@@ -173,75 +169,7 @@ font-family: 'Oswald', sans-serif;*/
   font-family: 20px;
 }*/
 
-/* Jenny's section styling */
-
-/* font-family: 'Rozha One', serif;
-font-family: 'Lato', sans-serif; */
-
-.Jenny  {
-  background-color: white;
-}
-
-.Jenny-header {
-padding: 1em;
-}
-
-.Jenny h2 {
-  font-size: 2.2em;
-  color: #FB5012;
-  font-family: 'Rozha One', serif;
-}
-
-.Jenny h3 {
-  font-family: 'lato';
-  font-size: 1.2em;
-  color: #FB5012;
-}
-
-.Jenny p {
-  color: grey;
-  font-family: 'Lato', sans-serif;
-}
-
-.Jenny a{
-  text-decoration: none;
-  color: #E9DF00;
-}
-
-.Jenny a:hover{
-  font-size: 1em;
-  font-weight: 600;
-}
-
-.Jennyimg{
-  height: 200px;
-  width: auto;
-}
-
-.Jennyimg:hover{
-  opacity: 0.5;
-  transition: .5s ease;
-}
-
-.Jenny button {
-  background-color: #FB5012;
-  color: white;
-  font-family: inherit;
-  padding: 1em 1.2em;
-  border-radius: 4px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-}
-
-.Jenny .visible {
-  margin-bottom: 2em;
-}
-
-/* add styling to your own sections by using your name as the section class to target just your section and not affect the styling of the rest of the page */
-
-/*Shaheen's styling section*/
+/*Shaheen's section styling*/
 
 /*text-styling section*/
 
@@ -291,15 +219,78 @@ padding: 1em;
   clear: both;
 }
 
-div button {
+.shaheen button {
   font-family: 'Arvo', serif;
   background-color: #00FF04;
   font-weight: bold;
-  margin: 10px 0px 0px 0px;
+  margin: 0.6rem;
 }
 
+/* Jenny's section styling */
+
+.Jenny  {
+  background-color: white;
+}
+
+.Jenny-header {
+  padding: 1em;
+}
+
+.Jenny h2 {
+  font-size: 2.2em;
+  color: #FB5012;
+  font-family: 'Rozha One', serif;
+}
+
+.Jenny h3 {
+  font-family: 'Lato';
+  font-size: 1.2em;
+  color: #FB5012;
+}
+
+.Jenny p {
+  color: grey;
+  font-family: 'Lato', sans-serif;
+}
+
+.Jenny a {
+  text-decoration: none;
+  color: #E9DF00;
+}
+
+.Jenny a:hover {
+  font-size: 1em;
+  font-weight: 600;
+}
+
+.Jennyimg {
+  height: 200px;
+  width: auto;
+}
+
+.Jennyimg:hover{
+  opacity: 0.5;
+  transition: .5s ease;
+}
+
+.Jenny button {
+  background-color: #FB5012;
+  color: white;
+  font-family: inherit;
+  padding: 1em 1.2em;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.Jenny .visible {
+  margin-bottom: 2em;
+}
 
 /*Marianne's section start*/
+
 section.marianne {
   width: 100%;
   height: auto;
@@ -336,41 +327,41 @@ section.marianne {
   display: inline-block;
   background-color: rgba(255, 255, 255, 0.5);}
 
-  p.default {
-    font-family: 'Permanent Marker', cursive;
-    color: blueviolet;
-    font-size: 1.5em;
-    display: inline-block;
-  }
+.marianne p.default {
+  font-family: 'Permanent Marker', cursive;
+  color: blueviolet;
+  font-size: 1.5em;
+  display: inline-block;
+}
 
-  p.smaller {
-    font-family: 'Permanent Marker', cursive;
-    color: blueviolet;
-    font-size: 1em;
-    display: inline-block;
-  }
+.marianne p.smaller {
+  font-family: 'Permanent Marker', cursive;
+  color: blueviolet;
+  font-size: 1em;
+  display: inline-block;
+}
 
-  .marianne div.invisible {
-      border-style: solid;
-      border-color: #806600;
-      border-width: 2px;
+.marianne div.invisible {
+  border-style: solid;
+  border-color: #806600;
+  border-width: 2px;
 
-      text-align: center;
-      display: inline-block;
-      max-width: 50%;}
+  text-align: center;
+  display: inline-block;
+  max-width: 50%;}
 
-    div.name {
-      margin-right: 50px;
-      margin-bottom: 40px;
-      background-color: yellow;
-    }
+.marianne div.name {
+  margin-right: 50px;
+  margin-bottom: 40px;
+  background-color: yellow;
+}
 
-  .marianne h3 {
+.marianne h3 {
   font-family: 'Kumar One Outline', cursive;
   font-size: 3em;
 }
 
-div.superpower {
+.marianne div.superpower {
   margin-left: 90px;
   margin-bottom: 20px;
   background-color: yellow;
@@ -384,17 +375,17 @@ div.superpower {
 }
 
 .marianne h4 {
-font-family: 'Faster One', cursive;
-font-size: 2em;
-background-color: orange;
-display: inline-block;
-width: 100%;
-border-bottom-style: double;
-border-bottom-color: red;
-border-bottom-width: 2px;
+  font-family: 'Faster One', cursive;
+  font-size: 2em;
+  background-color: orange;
+  display: inline-block;
+  width: 100%;
+  border-bottom-style: double;
+  border-bottom-color: red;
+  border-bottom-width: 2px;
 }
 
-div.superherotext {
+.marianne div.superherotext {
   width: 50%;
   float: left;
   background-color: white;
@@ -404,12 +395,12 @@ div.superherotext {
   font-family: 'Sirin Stencil', cursive;
 }
 
-p.time {
+.marianne p.time {
   background-color: #b37700;
   color: white;
 }
 
-p.and {
+.marianne p.and {
   background-color: #800040;
   color: white;
   width: 100%;
@@ -422,40 +413,40 @@ p.and {
 }
 
 .marianne h5 {
-font-family: 'Bungee Shade', cursive;
-font-size: 1.5em;
-background-color: orange;
-display: inline-block;
-width: 100%;
-border-bottom-style: double;
-border-bottom-color: red;
-border-bottom-width: 2px;
+  font-family: 'Bungee Shade', cursive;
+  font-size: 1.5em;
+  background-color: orange;
+  display: inline-block;
+  width: 100%;
+  border-bottom-style: double;
+  border-bottom-color: red;
+  border-bottom-width: 2px;
 }
 
-p.shadow {
+.marianne p.shadow {
   background-color: #b37700;
   color: white;
 }
 
-div.picture {
+.marianne div.picture {
   border: groove, black, 3px;
 }
 
-img.superhero {
+.marianne img.superhero {
   max-width: 100%;
   max-height: 100%;
-  }
+}
 
-p.barcelona {
-    clear: left;
-    font-family: 'Sirin Stencil', cursive;
-    background-color: #800040;
-    color: white;
-    width: 100%;
-    border-top-style: ridge;
-    border-top-color: black;
-    border-top-width: 2px;
-    border-bottom-style: ridge;
-    border-bottom-color: black;
-    border-bottom-width: 2px;
-    }
+.marianne p.barcelona {
+  clear: left;
+  font-family: 'Sirin Stencil', cursive;
+  background-color: #800040;
+  color: white;
+  width: 100%;
+  border-top-style: ridge;
+  border-top-color: black;
+  border-top-width: 2px;
+  border-bottom-style: ridge;
+  border-bottom-color: black;
+  border-bottom-width: 2px;
+}
